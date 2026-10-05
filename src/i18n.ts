@@ -32,7 +32,7 @@ const ja = {
 };
 export type Dict = typeof ja;
 const en: Dict = {
-  app: 'Kaimono Memo',
+  app: 'Shopping List',
   sub: 'A one-handed shopping list with big checkboxes.',
   addPh: 'Item',
   qtyPh: 'Qty',
