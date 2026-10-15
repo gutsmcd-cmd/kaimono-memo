@@ -25,3 +25,16 @@ body { background: var(--paper); }
   background: var(--card); font-weight: 800; font-size: 1rem; padding: 0; flex: none;
 }
 .mini:disabled { opacity: 0.35; }
+
+/* Shirley check (Oct 2026): larger text and 48px tap targets for older eyes and fingers. */
+.lang-toggle { font-size: 1rem; }
+.lang-toggle button { min-height: 48px; min-width: 48px; padding: 0 12px; opacity: 1; }
+.icon-btn { width: 48px; height: 48px; }
+label.field, .small, .foot { font-size: 1rem; }
+.seg button { min-height: 48px; font-size: 1rem; color: #55555f; }
+@media (prefers-color-scheme: dark) { .seg button { color: var(--muted); } }
+.btn, .input, select.input { min-height: 48px; }
+.toast button { min-height: 48px; }
+.subhead, .chip { font-size: 1rem; }
+.lists .btn, .chip { min-height: 48px; min-width: 48px; }
+.mini { width: 48px; height: 48px; }
